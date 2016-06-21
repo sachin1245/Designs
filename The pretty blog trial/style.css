@@ -1,0 +1,166 @@
+/*The pretty blog*/
+
+
+body{
+    
+}
+#container{
+    
+    background-color: azure;
+    width: 100%;
+    margin: 0 auto;
+    height: 2000px;
+}
+
+
+#container nav{
+    
+   
+    text-align: right;
+    position: relative;
+    bottom: 160px;
+}
+
+#container nav ul{
+     background: url('img/nav-background.png') top right no-repeat;
+    height: 70px;
+    margin-top: 30px;
+    
+   
+}
+#container nav ul li{
+    
+    padding:30px 10px 0 0;
+    display: inline-block;
+}
+
+#container nav ul li a:link{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+#mainContent{
+    float: left;
+    width: 75%;
+}
+.article{
+    
+    float: right;
+    width: 77%;
+}
+
+.article a{
+    
+    text-decoration: none;
+    color: #438bf7;
+}
+#articleImage{
+    
+    background: url('img/content_image.png') center center no-repeat;
+    height: 230px;
+    width: 100%;
+}
+
+.article #content{
+  
+  margin: 0 0;
+}
+#leftbar{
+    
+    width: 20%;
+    margin-right: 80%;
+    text-align: right;
+}
+
+#sidebar{
+    margin-left: 80%;
+    background: #333333;
+    height: 442px;
+    width: 260px;
+    text-align: left;
+    color: white;
+    padding: 32px 0 0 26px ;
+    box-sizing: border-box;
+}
+
+#sidebarCategories{
+   position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+#sidebar ul{
+    
+    list-style:none;
+    
+}
+
+#sidebar ul li{
+    padding-bottom: 10px;
+   
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: #f0d700;
+     
+}
+
+#sidebar form input{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+#sidebar form a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #333333;
+    margin-left: 60px;
+    margin-right: 80px;
+    background: #f0d700;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: normal;
+    font-family: Georgia;
+    color: #333333;
+    position: relative;
+   
+}
+
+footer ul{
+    list-style: none;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+footer ul li{
+    
+    display: inline-block;
+    padding: 0 10px 0 0;
+    list-style: style;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.clear:before , .clear:after{
+  content: "" ;
+  display: table;
+}
+
+.clear:after{
+  clear: both;
+}
