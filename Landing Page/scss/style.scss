@@ -241,7 +241,7 @@ body{
 			width: 600px;
 			height: 375px;
 			overflow: hidden;
-			background: $white;
+			background-color: $white;
 			-webkit-box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
 			-moz-box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
 			box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
@@ -254,21 +254,21 @@ body{
 			}
 			&:nth-child(1){
 				bottom: -37px;
-				left: 0;
+				left: 100px;
 				-moz-transform: scale(.8,.8);
 				-webkit-transform: scale(.8,.8);
 				transform: scale(.8,.8);
 				z-index: 2;
 			}
 			&:nth-child(2){
-				bottom: 0;
 				left: 50%;
 				margin-left: -300px;
 				z-index: 4;
+				bottom: 0;
 			}
 			&:nth-child(3){
 				bottom: -37px;
-				right: 0;
+				right: 100px;
 				-moz-transform: scale(.8,.8);
 				-webkit-transform: scale(.8,.8);
 				transform: scale(.8,.8);
